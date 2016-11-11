@@ -1,22 +1,38 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+.bgimage {
+	background-image : url("../images/image.jpg");
+	background-position : center center ;
+	background-size : cover ;
+	height : 300px;
+}
+ 
+.navbar {
+     border-radius: 0px; 
+	 margin-bottom : 0px;
+}
+.jumbotron{
+    background: url("../images/jb.jpg") no-repeat center center;
+	color : white;
+	/* 
+     -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100% */; */ 
 }
 
-.center {
-    text-align: center;
+	border: white;
+	 : 2px;
+}
+body{
+    background-color: #525252;
+}
+.centered-form{
+	margin-top: 60px;
 }
 
-.text-big {
-    font-size: 300%;
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }
-
-.bold {
-    font-weight: bold;
+.panel-title {
+	font-size : 330%;
 }
-
-.img-medium {
-    height: 200px;
-}
-
