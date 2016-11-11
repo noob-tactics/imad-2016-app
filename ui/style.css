@@ -16,12 +16,10 @@
      -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    background-size: 100% 100% */; */ 
+    background-size: 100% 100% ; */ 
 }
 
-	border: white;
-	 : 2px;
-}
+	
 body{
     background-color: #525252;
 }
@@ -30,7 +28,7 @@ body{
 }
 
 .centered-form .panel{
-	background: rgba(255, 255, 255, 0.8);
+/*	background: rgba(255, 255, 255, 0.8); */
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }
 .panel-title {
