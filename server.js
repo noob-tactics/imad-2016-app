@@ -23,6 +23,9 @@ app.get('/ui/jb.jpg', function (req, res) {
 app.get('/SignUp', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'SignUp.html'));
 });
+app.get('/myProfile', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'myProfile.html'));
+});
 
 
 
