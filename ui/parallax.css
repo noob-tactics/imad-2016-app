@@ -1,0 +1,50 @@
+html{
+box-sizing: border-box;
+overflow: hidden;
+}
+
+*,*::before,*::after{
+box-sizing: inherit;
+}
+body {
+height: 100vh;	
+margin: 0;
+overflow-y: auto;
+overflow-x: hidden;
+perspective: 1px;
+}
+
+img {
+width: 100%;
+display: block;
+background-size: cover;
+}
+.parallax-group{
+	
+	transform-style: preserve-3d;
+	
+}
+.back{
+	transform: translateZ(-0.5px) scale(2);
+	position: relative;
+	top: calc(((100vh -62.5vw)/4)* -2);
+	
+}
+.front{
+	background-color: #ccc;
+	padding: 14em 1em;
+	position: relative;
+	z-index: 2;
+	margin-top: 0px;
+	
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+	display: block;
+}
+#footer {
+	background-color : black;
+}
+    
