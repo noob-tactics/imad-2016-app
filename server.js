@@ -29,6 +29,9 @@ app.get('/myProfile', function (req, res) {
 app.get('/ui/jbg.jpg', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'jbg.jpg'));
  });
+ app.get('/ui/parallax.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'parallax.css'));
+});
 
 
 
